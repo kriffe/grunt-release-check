@@ -16,11 +16,11 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('release_check', 'Simple check structure before proceeding with other build or deploy commands', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
-      punctuation: '.',
-      separator: ', '
+	stage: 'RELEASE',
+   //   separator: ', '
     });
     
-    var pkg = grunt.file.readJSON('package.json'),
+    var pkg = grunt.file.readJSON('package.json');
 	var version = pkg.version.split(".");
 		if (version.length !== 4){
 		grunt.fail.warn("Version strcture should be major.minor.pathc-stage.build!");

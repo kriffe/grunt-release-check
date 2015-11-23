@@ -1,7 +1,7 @@
 {
   "name": "grunt-release-check",
   "description": "Simple check structure before proceeding with other build or deploy commands",
-  "version": "0.1.0",
+  "version": "0.1.0-RELEASE.1",
   "homepage": "https://github.com/kriffe/grunt-contrib-release-check",
   "author": {
     "name": "kriffe",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kriffe/grunt-contrib-release-check.git"
+    "url": "git://github.com/kriffe/grunt-release-check.git"
   },
   "bugs": {
-    "url": "https://github.com/kriffe/grunt-contrib-release-check/issues"
+    "url": "https://github.com/kriffe/grunt-release-check/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kriffe/grunt-contrib-release-check/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kriffe/grunt-release-check/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
