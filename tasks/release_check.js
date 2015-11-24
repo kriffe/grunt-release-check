@@ -10,7 +10,7 @@
 
 module.exports = function(grunt) {
 
-  grunt.registerMultiTask('release_check', 'Simple check structure before proceeding with other build or deploy commands', function() {
+  grunt.registerTask('release_check', 'Simple check structure before proceeding with other build or deploy commands', function() {
     
     var pkg = grunt.file.readJSON('package.json');
 	var version = pkg.version.split(".");
